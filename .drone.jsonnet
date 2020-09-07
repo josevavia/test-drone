@@ -7,6 +7,7 @@
             "name": "build",
             "image": "alpine",
             "commands": [
+		"drone jsonnet --stdout",
                 "echo hello world",
             ]
         }
