@@ -1,10 +1,11 @@
 kind: pipeline
-type: exec
 name: default
 
 
 steps:
- - name: greeting
-   commands:
-   - echo hello world
+- name: test
+  image: alpine:3.8
+  commands:
+  - echo hello
+  - echo world
 
